@@ -1,0 +1,57 @@
+{
+	"eslint disable no...": {
+		"prefix": "dno",
+		"body": [
+			"/* eslint-disable no-$1 */",
+			"$0"
+		],
+		"description": "Simple eslint disable completion"
+	},
+	"eslint disable next line": {
+		"prefix": "dnl",
+		"body": [
+			"// eslint-disable-next-line $0",
+		],
+		"description": "Eslint disable next line"
+	},
+	"import styled": {
+		"prefix": "isc",
+		"body": [
+			"import styled from 'styled-components';$0"
+		]
+	},
+	"import react functional component": {
+		"prefix": "irfc",
+		"body": [
+			"import React from 'react';",
+			"",
+			"const $1 = (props) =>{",
+			"\treturn (",
+			"\t\t<div>Hello $0</div>",
+			"\t);",
+			"};",
+			"",
+			"export default $1;"
+		]
+	},
+	"useEffect": {
+		"prefix": "useEf",
+		"body": [
+			"useEffect(()=>{$0},[]);"
+		]
+	},
+	"strict": {
+		"prefix": "strict",
+		"body": [
+			"'use strict';",
+			"",
+			"/**",
+    	"\t* @module $1",
+    	"\t* @author John Butler",
+    	"\t* @description $2",
+			"*/",
+			"",
+			"$0"
+		]
+	}
+}

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+nvs use node/14.3.0/x64
